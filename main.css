@@ -1,0 +1,73 @@
+body {
+  font-family: "Lucida Console", Monaco, monospace;
+  height: auto;
+  margin-left: auto;
+  text-align: center;
+  width: auto;
+  color: Chocolate;
+  background-color: Black;
+}
+
+h1 {
+  font-family: fantasy;
+  color: Crimson;
+  font-size: 48px;
+}
+
+h2 {
+  font-family: monospace;
+  color: Cornsilk;
+  font-size: 24px;
+}
+
+a {
+  color: Crimson;
+  font-size: 18px;
+  font-family: fantasy;
+  font-weight: bold;
+}
+
+.flavors {
+  font-family: sans-serif;
+  color: DarkOrange;
+  font-size: 1rem;
+  text-align: left;
+  margin: 12px;
+}
+
+.flavorsdescription {
+  padding: 20px;
+  margin: 20px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 2px solid Crimson;
+}
+
+th, td {
+  padding: 20px;
+  text-align: left;
+  vertical-align: top;
+}
+
+tr:nth-child(even) {
+  background-color: DarkSlateGrey;
+}
+
+tr:hover {
+  background-color: Pink;
+  color: Green;
+}
+
+th {
+  background-color: Chocolate;
+  color: Black;
+  font-size: 24px;
+  text-align: center;
+  vertical-align: middle;
+  font-family: fantasy;
+}
